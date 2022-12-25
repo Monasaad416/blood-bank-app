@@ -77,17 +77,17 @@
 
 /*intro*/
 .intro .carousel .carousel-inner .carousel-1{
-    background-image: url(../../imgs/header1-ltr.jpg);
+    background-image: url(./../imgs/BG.jpg);
     background-position: right;
 }
 
 .intro .carousel .carousel-inner .carousel-2{
-    background-image: url(../../imgs/header1-ltr.jpg);
+    background-image: url(./../imgs/BG.jpg);
     background-position: right;
 }
 
 .intro .carousel .carousel-inner .carousel-3{
-    background-image: url(../../imgs/header1-ltr.jpg);
+    background-image: url(./../imgs/BG.jpg);
     background-position: right;
 }
 

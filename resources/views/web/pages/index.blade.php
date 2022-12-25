@@ -14,26 +14,53 @@
                 <li data-target="#slider" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                @foreach ($sliders as $key=> $slider)
                 <style>
-                    .carousel-item{
-                        background-image: url({{url('uploads/'. $slider->image)}});
+                    .carousel-1{
+                        background-image: url({{url('web-layout/assets/imgs/BG.jpg')}});
+                    }
+                    .carousel-2{
+                        background-image: url({{url('web-layout/assets/imgs/BG.jpg')}});
+                    }
+                    .carousel-3{
+                        background-image: url({{url('web-layout/assets/imgs/BG.jpg')}});
                     }
 
                 </style>
-                <div class="carousel-item carousel-{{$key}} {{$key == 0 ? 'active' : ''}}">
-
+                <div class="carousel-item carousel-1 active">
                     <div class="container info">
                         <div class="col-lg-5">
-                            <h3>{{$slider->title}}</h3>
+                            <h3>Blood bank moving forward to better health1</h3>
                             <p>
-                                {{$slider->text}}
+                                    There is a proven fact from a long time ago that the readable content of a page will not distract the reader from focusing on the.
                             </p>
-                            <a href="#">{{$slider->button}}</a>
+                            <a href="#">Read More</a>
                         </div>
                     </div>
                 </div>
-            @endforeach
+                <div class="carousel-item carousel-2">
+
+                    <div class="container info">
+                        <div class="col-lg-5">
+                            <h3>Blood bank moving forward to better health2</h3>
+                            <p>
+                                    There is a proven fact from a long time ago that the readable content of a page will not distract the reader from focusing on the.
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-3">
+
+                    <div class="container info">
+                        <div class="col-lg-5">
+                            <h3>Blood bank moving forward to better health3</h3>
+                            <p>
+                                    There is a proven fact from a long time ago that the readable content of a page will not distract the reader from focusing on the.
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
