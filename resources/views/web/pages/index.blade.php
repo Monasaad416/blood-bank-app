@@ -14,18 +14,6 @@
                 <li data-target="#slider" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <style>
-                    .carousel-1{
-                        background-image: url({{url('web-layout/assets/imgs/BG.jpg')}});
-                    }
-                    .carousel-2{
-                        background-image: url({{url('web-layout/assets/imgs/BG.jpg')}});
-                    }
-                    .carousel-3{
-                        background-image: url({{url('web-layout/assets/imgs/BG.jpg')}});
-                    }
-
-                </style>
                 <div class="carousel-item carousel-1 active">
                     <div class="container info">
                         <div class="col-lg-5">
